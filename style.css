@@ -348,3 +348,148 @@ footer {
 .social-icons a:hover {
     transform: scale(1.2); /* Icon grows when hovered */
 }
+
+/* General styles remain unchanged */
+
+/* Media Queries for Tablets and Smaller Devices */
+@media (max-width: 768px) {
+    /* Navigation Bar */
+    nav {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+    }
+
+    /* Hero Section */
+    .hero {
+        height: 80vh; /* Reduce height for smaller screens */
+        background-position: center;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    /* Games Section */
+    .games-section {
+        padding: 30px;
+    }
+
+    .game-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* News Section */
+    .news-carousel {
+        display: block;
+    }
+
+    /* About Us Section */
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    /* Team Timeline */
+    .team-timeline h3 {
+        font-size: 22px;
+    }
+
+    .team-timeline ul li {
+        font-size: 16px;
+    }
+
+    /* Contact Section */
+    .contact-section h2 {
+        font-size: 28px;
+    }
+
+    .contact-section p {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 480px) {
+    /* Navigation Bar */
+    nav {
+        padding: 8px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    /* Hero Section */
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    /* Games Section */
+    .game-card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* News Section */
+    .news-item {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    /* Social Links */
+    .social-icons a {
+        font-size: 20px;
+    }
+
+    /* Footer */
+    footer p {
+        font-size: 12px;
+    }
+}
